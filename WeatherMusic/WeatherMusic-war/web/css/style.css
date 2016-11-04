@@ -1,0 +1,147 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 10%;
+    width: 100%;
+    background-color: #D4456B ;
+    box-shadow: 10px 50px 10px #fff;
+    z-index: 10;
+}
+
+#header-left{
+    height: 100%;
+    width: 23%;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .menu-tab{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    padding-left: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    border-right: solid 1px #2F2F2F;
+    color: #FFF;
+    transition-duration: 0.2s;
+}
+
+header .menu-tab:hover{
+    background-color: #2F2F2F;
+}
+
+header .menu-tab:hover svg{
+    /*fill: #D4456B ;*/
+}
+
+.menu-tab svg{
+    width: 17%;
+    margin-right: 0.2%;
+    fill: #FFF;
+    transition-duration: 0.2s;
+}
+
+#header-right{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 47%;
+    float: right;
+    padding-right: 2%;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#header-right svg{
+    width: 5%;
+    margin-right: 1%;
+    fill: #FFF;
+    transition-duration: 0.2s;
+}
+
+#header-right svg:hover{
+    fill: #3f3f3f;
+}
+
+section{
+    height: 90%;
+    width: 100%;
+    background-color: #2F2F2F;
+    z-index: 0;
+}
+
+#logo-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#weather-div{
+    position: absolute;
+    top: 10%;
+    width: 90%;
+    height: 8%;
+    /*left: 80%;*/
+
+    display: flex;
+    align-items:  center;
+    justify-content: flex-end;
+    font-size: 32px;
+    color: white;
+    white-space: nowrap;
+}
+
+
+#weather-div p{
+    margin: 0;
+    padding: 0;
+}
+
+#weather-div svg{
+    margin-left: 1%;
+    height: 100%;
+    width: 4%;
+    fill:#fff;
+}
+
+#weather-div svg:hover{
+}
+
+#logo-div svg {
+    transition-duration: 0.2s;
+    display: block;
+}
+
+#logo-div svg:hover{
+    filter: drop-shadow(0 0 10px #dd6e8c);
+}
+/*-----ERROR CSS-----*/
+#error-section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#error-section svg{
+    height: 30%;
+    fill: #D4456B ;
+}
+
+#error-section p{
+    font-size: 70px;
+    color: #D4456B ;
+}
